@@ -1,0 +1,380 @@
+[
+  {
+    "secteur": "Agriculture",
+    "metier": "Agriculteur",
+    "mots_cles": ["ferme", "récolte", "tracteur", "champ", "blé", "culture"]
+  },
+  {
+    "secteur": "Agroalimentaire",
+    "metier": "Boulanger",
+    "mots_cles": ["pain", "farine", "four", "pétrin", "viennoiserie", "boulangerie"]
+  },
+  {
+    "secteur": "Agroalimentaire",
+    "metier": "Boucher",
+    "mots_cles": ["viande", "découpe", "abattoir", "hache", "rayon frais", "boucherie"]
+  },
+  {
+    "secteur": "Agroalimentaire",
+    "metier": "Brasseur",
+    "mots_cles": ["bière", "orge", "malt", "houblon", "fermentation", "brasserie"]
+  },
+  {
+    "secteur": "Automobile",
+    "metier": "Carrossier",
+    "mots_cles": ["carrosserie", "peinture", "réparation", "tôle", "impact", "choc"]
+  },
+  {
+    "secteur": "Automobile",
+    "metier": "Mécanicien",
+    "mots_cles": ["garage", "réparation", "panne", "moteur", "huile", "frein"]
+  },
+  {
+    "secteur": "Artisanat",
+    "metier": "Bijoutier",
+    "mots_cles": ["bijou", "or", "argent", "pierres", "bague", "atelier"]
+  },
+  {
+    "secteur": "Architecture",
+    "metier": "Architecte",
+    "mots_cles": ["plan", "chantier", "construction", "dessin", "bâtiment", "maquette"]
+  },
+  {
+    "secteur": "Bâtiment et travaux publics",
+    "metier": "Maçon",
+    "mots_cles": ["chantier", "construction", "béton", "parpaing", "fondation", "mur"]
+  },
+  {
+    "secteur": "Bâtiment et travaux publics",
+    "metier": "Charpentier",
+    "mots_cles": ["bois", "ossature", "toit", "poutre", "charpente", "construction"]
+  }
+]
+[
+  {
+    "secteur": "Commerce",
+    "metier": "Caissier",
+    "mots_cles": ["supermarché", "caisse", "scanner", "clients", "monnaie", "paiement"]
+  },
+  {
+    "secteur": "Commerce",
+    "metier": "Commercial",
+    "mots_cles": ["vente", "prospection", "client", "offre", "contrat", "cibler"]
+  },
+  {
+    "secteur": "Construction",
+    "metier": "Conducteur de travaux",
+    "mots_cles": ["chantier", "planning", "maîtrise", "coordination", "bâtiment", "projet"]
+  },
+  {
+    "secteur": "Communication",
+    "metier": "Chargé de communication",
+    "mots_cles": ["réseaux", "média", "publicité", "communiqué", "stratégie", "événement"]
+  },
+  {
+    "secteur": "Défense et sécurité",
+    "metier": "Douanier",
+    "mots_cles": ["frontière", "contrôle", "marchandise", "valise", "scanner", "poste"]
+  },
+  {
+    "secteur": "Droit",
+    "metier": "Avocat",
+    "mots_cles": ["justice", "tribunal", "procès", "client", "défense", "droit"]
+  },
+  {
+    "secteur": "Droit",
+    "metier": "Notaire",
+    "mots_cles": ["acte", "succession", "immobilier", "mariage", "testament", "signature"]
+  },
+  {
+    "secteur": "Distribution",
+    "metier": "Préparateur de commandes",
+    "mots_cles": ["logistique", "colis", "scan", "rayon", "entrepôt", "commande"]
+  },
+  {
+    "secteur": "Distribution",
+    "metier": "Livreur",
+    "mots_cles": ["colis", "véhicule", "adresse", "livraison", "client", "trajet"]
+  }
+]
+[
+  {
+    "secteur": "Éducation",
+    "metier": "Professeur des écoles",
+    "mots_cles": ["classe", "élèves", "enseignement", "leçon", "école", "maternelle", "primaire"]
+  },
+  {
+    "secteur": "Éducation",
+    "metier": "Surveillant scolaire",
+    "mots_cles": ["cantine", "récréation", "retard", "collège", "discipline", "établissements"]
+  },
+  {
+    "secteur": "Énergie",
+    "metier": "Technicien en énergie renouvelable",
+    "mots_cles": ["solaire", "éolienne", "panneau", "batterie", "électricité", "installation"]
+  },
+  {
+    "secteur": "Environnement",
+    "metier": "Chargé de mission environnement",
+    "mots_cles": ["biodiversité", "pollution", "règlementation", "nature", "éco", "développement durable"]
+  },
+  {
+    "secteur": "Finance",
+    "metier": "Comptable",
+    "mots_cles": ["bilan", "facture", "écriture", "banque", "fiscalité", "budget"]
+  },
+  {
+    "secteur": "Finance",
+    "metier": "Contrôleur de gestion",
+    "mots_cles": ["tableau", "performance", "budget", "écart", "analyse", "reporting"]
+  },
+  {
+    "secteur": "Forêt",
+    "metier": "Garde forestier",
+    "mots_cles": ["forêt", "surveillance", "faune", "flore", "sentier", "nature"]
+  },
+  {
+    "secteur": "Génie civil",
+    "metier": "Ingénieur BTP",
+    "mots_cles": ["chantier", "structure", "calcul", "béton", "plans", "VRD"]
+  },
+  {
+    "secteur": "Grande distribution",
+    "metier": "Employé libre-service",
+    "mots_cles": ["rayon", "étiquetage", "facing", "stock", "mise en rayon", "linéaire"]
+  }
+]
+[
+  {
+    "secteur": "Hôtellerie-Restauration",
+    "metier": "Réceptionniste",
+    "mots_cles": ["accueil", "réservation", "client", "hôtel", "check-in", "check-out"]
+  },
+  {
+    "secteur": "Hôtellerie-Restauration",
+    "metier": "Serveur",
+    "mots_cles": ["commande", "service", "client", "restaurant", "addition", "table"]
+  },
+  {
+    "secteur": "Hôtellerie-Restauration",
+    "metier": "Cuisinier",
+    "mots_cles": ["plats", "recette", "fourneau", "préparation", "menu", "service"]
+  },
+  {
+    "secteur": "Informatique",
+    "metier": "Développeur web",
+    "mots_cles": ["site", "HTML", "CSS", "JavaScript", "code", "application"]
+  },
+  {
+    "secteur": "Informatique",
+    "metier": "Administrateur systèmes et réseaux",
+    "mots_cles": ["serveur", "réseau", "sécurité", "Linux", "IP", "sauvegarde"]
+  },
+  {
+    "secteur": "Justice",
+    "metier": "Greffier",
+    "mots_cles": ["tribunal", "audience", "jugement", "procès-verbal", "dossier", "justice"]
+  },
+  {
+    "secteur": "Logistique",
+    "metier": "Cariste",
+    "mots_cles": ["chariot", "manutention", "palettes", "entreposage", "logistique", "chargement"]
+  },
+  {
+    "secteur": "Logistique",
+    "metier": "Agent de quai",
+    "mots_cles": ["chargement", "déchargement", "camion", "logistique", "manutention", "marchandise"]
+  },
+  {
+    "secteur": "Luxe",
+    "metier": "Conseiller en boutique de luxe",
+    "mots_cles": ["clientèle", "prestige", "vente", "conseil", "marque", "accueil"]
+  }
+[
+  {
+    "secteur": "Marine/Mer/Nautisme",
+    "metier": "Marin pêcheur",
+    "mots_cles": ["bateau", "filet", "poisson", "port", "navigation", "mer"]
+  },
+  {
+    "secteur": "Marine/Mer/Nautisme",
+    "metier": "Charpentier naval",
+    "mots_cles": ["bois", "coque", "chantier naval", "construction", "navire", "plan"]
+  },
+  {
+    "secteur": "Magasin/Commerce",
+    "metier": "Responsable de magasin",
+    "mots_cles": ["gestion", "stock", "vente", "client", "équipe", "magasin"]
+  },
+  {
+    "secteur": "Magasin/Commerce",
+    "metier": "Caissier",
+    "mots_cles": ["encaissement", "client", "caisse", "ticket", "monnaie", "chariot"]
+  },
+  {
+    "secteur": "Menuiserie",
+    "metier": "Menuisier",
+    "mots_cles": ["bois", "meuble", "assemblage", "scie", "ébénisterie", "plan"]
+  },
+  {
+    "secteur": "Nettoyage",
+    "metier": "Agent d’entretien",
+    "mots_cles": ["balayage", "désinfection", "locaux", "produit", "sol", "ménage"]
+  },
+  {
+    "secteur": "Nucléaire",
+    "metier": "Technicien de radioprotection",
+    "mots_cles": ["rayonnement", "dosimètre", "sécurité", "centrale", "nucléaire", "contrôle"]
+  },
+  {
+    "secteur": "Ordures / Propreté urbaine",
+    "metier": "Éboueur",
+    "mots_cles": ["ramassage", "déchets", "ordures", "camion", "tri", "propreté"]
+  },
+  {
+    "secteur": "Optique",
+    "metier": "Opticien-lunetier",
+    "mots_cles": ["verre", "monture", "vision", "ordonnance", "vue", "optique"]
+  }
+]
+[
+  {
+    "secteur": "Pharmacie",
+    "metier": "Préparateur en pharmacie",
+    "mots_cles": ["médicaments", "ordonnance", "pharmacien", "posologie", "stock", "conditionnement"]
+  },
+  {
+    "secteur": "Presse / Édition",
+    "metier": "Journaliste",
+    "mots_cles": ["article", "reportage", "interview", "actualité", "rédaction", "information"]
+  },
+  {
+    "secteur": "Plomberie / Chauffage",
+    "metier": "Plombier chauffagiste",
+    "mots_cles": ["tuyau", "robinet", "fuite", "chauffe-eau", "installation", "réparation"]
+  },
+  {
+    "secteur": "Publicité / Communication",
+    "metier": "Chargé de communication",
+    "mots_cles": ["stratégie", "campagne", "réseaux sociaux", "événement", "publicité", "contenu"]
+  },
+  {
+    "secteur": "Qualité / Hygiène / Sécurité / Environnement",
+    "metier": "Responsable QHSE",
+    "mots_cles": ["sécurité", "norme", "audit", "environnement", "prévention", "qualité"]
+  },
+  {
+    "secteur": "Ressources humaines",
+    "metier": "Chargé de recrutement",
+    "mots_cles": ["candidature", "CV", "entretien", "profil", "poste", "embauche"]
+  },
+  {
+    "secteur": "Restauration",
+    "metier": "Cuisinier",
+    "mots_cles": ["recette", "cuisine", "service", "préparation", "plats", "restauration"]
+  },
+  {
+    "secteur": "Restauration rapide",
+    "metier": "Employé polyvalent",
+    "mots_cles": ["frites", "caisse", "accueil", "préparation", "sandwich", "nettoyage"]
+  },
+  {
+    "secteur": "Réseaux / Télécoms",
+    "metier": "Technicien télécom",
+    "mots_cles": ["fibre", "réseau", "câble", "connexion", "test", "installation"]
+  }
+]
+[
+  {
+    "secteur": "Santé",
+    "metier": "Infirmier",
+    "mots_cles": ["soins", "patient", "médicaments", "hospitalisation", "urgence", "pansement"]
+  },
+  {
+    "secteur": "Sécurité / Surveillance",
+    "metier": "Agent de sécurité",
+    "mots_cles": ["ronde", "badge", "surveillance", "caméra", "vigile", "sécurité"]
+  },
+  {
+    "secteur": "Social / Insertion",
+    "metier": "Assistant social",
+    "mots_cles": ["accompagnement", "famille", "aide", "dossier", "protection", "public en difficulté"]
+  },
+  {
+    "secteur": "Spectacle / Culture / Art",
+    "metier": "Technicien lumière",
+    "mots_cles": ["scène", "projecteur", "événement", "installation", "réglage", "matériel"]
+  },
+  {
+    "secteur": "Sport / Animation",
+    "metier": "Animateur sportif",
+    "mots_cles": ["activité", "enfant", "loisir", "sport", "encadrement", "équipe"]
+  },
+  {
+    "secteur": "Support / Assistance informatique",
+    "metier": "Technicien support",
+    "mots_cles": ["dépannage", "ordinateur", "assistance", "bug", "ticket", "résolution"]
+  },
+  {
+    "secteur": "Transport / Logistique",
+    "metier": "Chauffeur livreur",
+    "mots_cles": ["camion", "livraison", "colis", "itinéraire", "chargement", "client"]
+  },
+  {
+    "secteur": "Travaux publics / BTP",
+    "metier": "Conducteur d'engins",
+    "mots_cles": ["pelleteuse", "chantier", "terrassement", "engins", "sol", "manœuvre"]
+  },
+  {
+    "secteur": "Tourisme / Voyages",
+    "metier": "Agent de voyage",
+    "mots_cles": ["billet", "destination", "client", "forfait", "réservation", "séjour"]
+  },
+  {
+    "secteur": "Urbanisme / Aménagement",
+    "metier": "Urbaniste",
+    "mots_cles": ["ville", "projet", "quartier", "planification", "réaménagement", "cadastre"]
+  }
+]
+[
+  {
+    "secteur": "Vente / Commerce / Distribution",
+    "metier": "Vendeur en magasin",
+    "mots_cles": ["accueil", "client", "rayon", "caisse", "réassort", "produit"]
+  },
+  {
+    "secteur": "Vente / Commerce / Distribution",
+    "metier": "Visual merchandiser",
+    "mots_cles": ["vitrine", "mise en valeur", "agencement", "produits", "décoration", "rayon"]
+  },
+  {
+    "secteur": "Web / Numérique",
+    "metier": "Développeur web",
+    "mots_cles": ["site", "HTML", "CSS", "JavaScript", "code", "base de données"]
+  },
+  {
+    "secteur": "Web / Numérique",
+    "metier": "Community manager",
+    "mots_cles": ["réseaux sociaux", "contenu", "publication", "followers", "stratégie", "audience"]
+  },
+  {
+    "secteur": "Xylographie / Travail du bois (rare)",
+    "metier": "Sculpteur sur bois",
+    "mots_cles": ["bois", "sculpture", "outil", "forme", "création", "artisan"]
+  },
+  {
+    "secteur": "Yoga / Bien-être / Coaching",
+    "metier": "Coach bien-être",
+    "mots_cles": ["relaxation", "méditation", "coaching", "accompagnement", "gestion du stress", "bien-être"]
+  },
+  {
+    "secteur": "Zoo / Animaux",
+    "metier": "Soigneur animalier",
+    "mots_cles": ["animaux", "entretien", "nourriture", "hygiène", "enclos", "vétérinaire"]
+  },
+  {
+    "secteur": "Zinguerie / Couverture",
+    "metier": "Zingueur",
+    "mots_cles": ["toit", "gouttière", "plomberie", "étanchéité", "plomb", "cuivre"]
+  }
+]
