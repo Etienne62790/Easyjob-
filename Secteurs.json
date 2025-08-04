@@ -1,0 +1,126 @@
+[
+  {
+    "secteur": "Agriculture, pêche, espaces naturels et animaux",
+    "metiers": ["Agriculteur", "Éleveur", "Jardinier paysagiste", "Vétérinaire"]
+  },
+  {
+    "secteur": "Artisanat d'art",
+    "metiers": ["Ébéniste", "Céramiste", "Ferronnier", "Luthier"]
+  },
+  {
+    "secteur": "Arts du spectacle",
+    "metiers": ["Comédien", "Danseur", "Régisseur", "Metteur en scène"]
+  },
+  {
+    "secteur": "Banque, assurance",
+    "metiers": ["Conseiller bancaire", "Actuaire", "Agent d’assurance", "Chargé de clientèle"]
+  },
+  {
+    "secteur": "Bâtiment et travaux publics (BTP)",
+    "metiers": ["Maçon", "Plombier", "Chef de chantier", "Géomètre"]
+  },
+  {
+    "secteur": "Chimie, biologie",
+    "metiers": ["Chimiste", "Technicien de laboratoire", "Biologiste", "Formulateur"]
+  },
+  {
+    "secteur": "Commerce, vente",
+    "metiers": ["Vendeur", "Chef de rayon", "Responsable commercial", "Télévendeur"]
+  },
+  {
+    "secteur": "Communication, média, multimédia",
+    "metiers": ["Journaliste", "Chargé de communication", "Infographiste", "Community manager"]
+  },
+  {
+    "secteur": "Création, artisanat",
+    "metiers": ["Styliste", "Designer graphique", "Tapissier", "Bijoutier"]
+  },
+  {
+    "secteur": "Droit, justice",
+    "metiers": ["Avocat", "Magistrat", "Notaire", "Greffier"]
+  },
+  {
+    "secteur": "Enseignement, éducation",
+    "metiers": ["Professeur des écoles", "Enseignant chercheur", "Formateur", "Éducateur"]
+  },
+  {
+    "secteur": "Environnement, développement durable",
+    "metiers": ["Chargé de mission environnement", "Ingénieur écologue", "Technicien de rivière"]
+  },
+  {
+    "secteur": "Esthétique, beauté, coiffure",
+    "metiers": ["Coiffeur", "Esthéticienne", "Prothésiste ongulaire", "Maquilleur"]
+  },
+  {
+    "secteur": "Gestion, comptabilité, RH",
+    "metiers": ["Comptable", "Gestionnaire de paie", "Chargé de recrutement", "DRH"]
+  },
+  {
+    "secteur": "Hôtellerie, restauration, tourisme",
+    "metiers": ["Serveur", "Chef cuisinier", "Réceptionniste", "Guide touristique"]
+  },
+  {
+    "secteur": "Industrie",
+    "metiers": ["Opérateur de production", "Ingénieur en mécanique", "Soudeur", "Chef d’atelier"]
+  },
+  {
+    "secteur": "Informatique, télécoms",
+    "metiers": ["Développeur web", "Technicien réseau", "Data analyst", "Administrateur systèmes"]
+  },
+  {
+    "secteur": "Logistique, transport",
+    "metiers": ["Chauffeur poids lourd", "Magasinier", "Logisticien", "Cariste"]
+  },
+  {
+    "secteur": "Maintenance, sécurité",
+    "metiers": ["Agent de maintenance", "Technicien ascensoriste", "Agent de sécurité", "Sapeur pompier"]
+  },
+  {
+    "secteur": "Marketing, publicité",
+    "metiers": ["Chargé d’études marketing", "Chef de produit", "Responsable publicité", "Traffic manager"]
+  },
+  {
+    "secteur": "Mécanique, électrotechnique",
+    "metiers": ["Mécanicien auto", "Électromécanicien", "Technicien de maintenance industrielle"]
+  },
+  {
+    "secteur": "Métiers de la mode",
+    "metiers": ["Styliste", "Modéliste", "Couturier", "Vendeur prêt-à-porter"]
+  },
+  {
+    "secteur": "Métiers de la mer",
+    "metiers": ["Marin pêcheur", "Officier de la marine marchande", "Conchyliculteur", "Scaphandrier"]
+  },
+  {
+    "secteur": "Numérique",
+    "metiers": ["Développeur mobile", "UI/UX designer", "Ingénieur IA", "Webdesigner"]
+  },
+  {
+    "secteur": "Santé",
+    "metiers": ["Médecin", "Infirmier", "Pharmacien", "Aide-soignant"]
+  },
+  {
+    "secteur": "Sciences humaines et sociales",
+    "metiers": ["Psychologue", "Sociologue", "Anthropologue", "Historien"]
+  },
+  {
+    "secteur": "Secrétariat, accueil",
+    "metiers": ["Secrétaire", "Assistant administratif", "Hôte d’accueil", "Assistant de direction"]
+  },
+  {
+    "secteur": "Social",
+    "metiers": ["Assistant social", "Éducateur spécialisé", "Conseiller en insertion"]
+  },
+  {
+    "secteur": "Sport",
+    "metiers": ["Éducateur sportif", "Coach", "Moniteur de ski", "Préparateur physique"]
+  },
+  {
+    "secteur": "Textile, cuir",
+    "metiers": ["Ouvrier textile", "Couturier", "Sellier", "Tanneur"]
+  },
+  {
+    "secteur": "Travail de la matière",
+    "metiers": ["Soudeur", "Chaudronnier", "Tailleur de pierre", "Céramiste"]
+  }
+]
