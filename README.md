@@ -13,12 +13,12 @@ Cette application permet de rechercher des offres d’emploi, de supprimer les d
 
 ## Installation
 
-À venir…
+Trouver qui vous cherche
 
 ## Utilisation
 
-À venir…
+CV automatique, lettre de motivation automatique 
 
 ## Contribuer
 
-N’hésitez pas à proposer des améliorations !
+N’hésitez pas à proposer des améliorations ! et a m'aider.
