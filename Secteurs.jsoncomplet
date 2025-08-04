@@ -1,987 +1,189 @@
+json.
 {
-  "secteur": "Agriculture / Agroalimentaire",
-  "metiers": [
+  "secteurs": [
     {
-      "nom": "Agriculteur",
-      "mots_cles": ["ferme", "culture", "récolte", "tracteur", "champ", "exploitant agricole"]
+      "secteur": "Agriculture",
+      "metiers": ["Agriculteur", "Viticulteur", "Maraîcher"]
     },
     {
-      "nom": "Viticulteur",
-      "mots_cles": ["vin", "vigne", "récolte", "vendanges", "cépages"]
+      "secteur": "Bâtiment et Travaux Publics",
+      "metiers": ["Maçon", "Charpentier", "Électricien", "Peintre"]
     },
     {
-      "nom": "Éleveur",
-      "mots_cles": ["animaux", "bétail", "nourrir", "soins", "étable"]
+      "secteur": "Commerce et Distribution",
+      "metiers": ["Caissier", "Vendeur", "Responsable de rayon"]
     },
     {
-      "nom": "Ouvrier agroalimentaire",
-      "mots_cles": ["production", "usine", "conditionnement", "chaîne", "hygiène"]
+      "secteur": "Énergie et Environnement",
+      "metiers": ["Technicien de maintenance éolienne", "Chargé d'études environnementales"]
+    },
+    {
+      "secteur": "Informatique et Numérique",
+      "metiers": ["Développeur", "Administrateur système", "UX Designer"]
+    },
+    {
+      "secteur": "Logistique et Transport",
+      "metiers": ["Chauffeur-livreur", "Cariste", "Magasinier"]
+    },
+    {
+      "secteur": "Industrie",
+      "metiers": ["Soudeur", "Opérateur de production", "Technicien qualité"]
+    },
+    {
+      "secteur": "Métiers de la Santé",
+      "metiers": ["Infirmier", "Médecin", "Aide-soignant"]
+    },
+    {
+      "secteur": "Sécurité et Défense",
+      "metiers": ["Policier", "Gendarme", "Agent de sécurité"]
+    },
+    {
+      "secteur": "Services à la personne",
+      "metiers": ["Aide à domicile", "Assistant maternel", "Employé de ménage"]
+    },
+    {
+      "secteur": "Tourisme, Hôtellerie, Restauration",
+      "metiers": ["Serveur", "Réceptionniste", "Cuisinier"]
+    },
+    {
+      "secteur": "Enseignement et Formation",
+      "metiers": ["Professeur", "Formateur", "Éducateur"]
+    },
+    {
+      "secteur": "Arts et Culture",
+      "metiers": ["Illustrateur", "Comédien", "Musicien"]
+    },
+    {
+      "secteur": "Banque et Assurance",
+      "metiers": ["Conseiller bancaire", "Chargé de clientèle", "Actuaire"]
+    },
+    {
+      "secteur": "Travail social",
+      "metiers": ["Assistant social", "Éducateur spécialisé", "Conseiller en insertion"]
+    },
+    {
+      "secteur": "Communication et Marketing",
+      "metiers": ["Community Manager", "Chargé de communication", "Rédacteur"]
+    },
+    {
+      "secteur": "Recherche et Sciences",
+      "metiers": ["Chercheur", "Ingénieur R&D", "Technicien de laboratoire"]
+    },
+    {
+      "secteur": "Mode et Beauté",
+      "metiers": ["Coiffeur", "Esthéticienne", "Styliste"]
+    },
+    {
+      "secteur": "Juridique",
+      "metiers": ["Avocat", "Notaire", "Greffier"]
+    },
+    {
+      "secteur": "Immobilier",
+      "metiers": ["Agent immobilier", "Diagnostiqueur immobilier", "Gestionnaire locatif"]
+    },
+    {
+      "secteur": "Marine et Nautisme",
+      "metiers": ["Marin pêcheur", "Mécanicien naval", "Charpentier de marine"]
+    },
+    {
+      "secteur": "Recyclage et Environnement",
+      "metiers": ["Agent de tri", "Technicien traitement des déchets", "Chargé de mission environnement"]
     }
   ]
 }
-{
-  "secteur": "Art / Culture / Patrimoine",
-  "metiers": [
-    {
-      "nom": "Illustrateur",
-      "mots_cles": ["dessin", "créatif", "graphisme", "édition", "visuel"]
-    },
-    {
-      "nom": "Conservateur de musée",
-      "mots_cles": ["collection", "musée", "art", "patrimoine", "exposition"]
-    },
-    {
-      "nom": "Restaurateur d'œuvres",
-      "mots_cles": ["restauration", "peinture", "art ancien", "techniques traditionnelles"]
-    },
-    {
-      "nom": "Photographe",
-      "mots_cles": ["appareil photo", "shooting", "image", "studio", "reportage"]
-    }
-  ]
-}
-{
-  "secteur": "BTP / Construction",
-  "metiers": [
-    {
-      "nom": "Maçon",
-      "mots_cles": ["chantier", "béton", "parpaing", "mur", "fondation"]
-    },
-    {
-      "nom": "Charpentier",
-      "mots_cles": ["bois", "ossature", "charpente", "toiture"]
-    },
-    {
-      "nom": "Plombier",
-      "mots_cles": ["canalisation", "eau", "chauffe-eau", "soudure", "tuyauterie"]
-    },
-    {
-      "nom": "Électricien du bâtiment",
-      "mots_cles": ["câblage", "tableau électrique", "norme", "installation"]
-    }
-  ]
-}
-{
-  "secteur": "Commerce / Vente",
-  "metiers": [
-    {
-      "nom": "Vendeur",
-      "mots_cles": ["vente", "client", "magasin", "rayon", "produit"]
-    },
-    {
-      "nom": "Caissier",
-      "mots_cles": ["caisse", "paiement", "client", "ticket", "encaissement"]
-    },
-    {
-      "nom": "Chef de rayon",
-      "mots_cles": ["gestion", "rayon", "produits", "stocks", "promotion"]
-    },
-    {
-      "nom": "Télévendeur",
-      "mots_cles": ["téléphone", "prospection", "appel", "client", "produit"]
-    }
-  ]
-}
-{
-  "secteur": "Défense / Sécurité",
-  "metiers": [
-    {
-      "nom": "Policier",
-      "mots_cles": ["sécurité", "loi", "intervention", "poste", "patrouille"]
-    },
-    {
-      "nom": "Gendarme",
-      "mots_cles": ["ordre public", "militaire", "contrôle", "routes"]
-    },
-    {
-      "nom": "Agent de sécurité",
-      "mots_cles": ["surveillance", "protection", "rondes", "caméra", "alarme"]
-    },
-    {
-      "nom": "Gardien de prison",
-      "mots_cles": ["surveillance", "détenu", "sécurité", "centre pénitentiaire"]
-    }
-  ]
-}
-{
-  "secteur": "Éducation / Formation",
-  "metiers": [
-    {
-      "nom": "Professeur des écoles",
-      "mots_cles": ["classe", "élèves", "enseignement", "pédagogie", "primaire"]
-    },
-    {
-      "nom": "Formateur professionnel",
-      "mots_cles": ["formation", "adultes", "compétences", "cours", "atelier"]
-    },
-    {
-      "nom": "Assistant d’éducation",
-      "mots_cles": ["vie scolaire", "collège", "surveillance", "élèves"]
-    },
-    {
-      "nom": "Conseiller d’orientation",
-      "mots_cles": ["parcours", "études", "orientation", "conseil", "étudiant"]
-    }
-  ]
-}
-{
-  "secteur": "Environnement / Développement durable",
-  "metiers": [
-    {
-      "nom": "Technicien environnement",
-      "mots_cles": ["écologie", "biodiversité", "pollution", "mesures", "milieu naturel"]
-    },
-    {
-      "nom": "Agent de collecte des déchets",
-      "mots_cles": ["ordures", "poubelles", "ramassage", "camion", "tri"]
-    },
-    {
-      "nom": "Conseiller en développement durable",
-      "mots_cles": ["énergie", "bilan carbone", "audit", "recommandation", "transition"]
-    },
-    {
-      "nom": "Ingénieur en énergies renouvelables",
-      "mots_cles": ["solaire", "éolien", "photovoltaïque", "durable", "batteries"]
-    }
-  ]
-}
-{
-  "secteur": "Commerce / Vente",
-  "metiers": [
-    {
-      "nom": "Vendeur",
-      "mots_cles": ["vente", "client", "magasin", "rayon", "produit"]
-    },
-    {
-      "nom": "Caissier",
-      "mots_cles": ["caisse", "paiement", "client", "ticket", "encaissement"]
-    },
-    {
-      "nom": "Chef de rayon",
-      "mots_cles": ["gestion", "rayon", "produits", "stocks", "promotion"]
-    },
-    {
-      "nom": "Télévendeur",
-      "mots_cles": ["téléphone", "prospection", "appel", "client", "produit"]
-    }
-  ]
-}
-{
-  "secteur": "Défense / Sécurité",
-  "metiers": [
-    {
-      "nom": "Policier",
-      "mots_cles": ["sécurité", "loi", "intervention", "poste", "patrouille"]
-    },
-    {
-      "nom": "Gendarme",
-      "mots_cles": ["ordre public", "militaire", "contrôle", "routes"]
-    },
-    {
-      "nom": "Agent de sécurité",
-      "mots_cles": ["surveillance", "protection", "rondes", "caméra", "alarme"]
-    },
-    {
-      "nom": "Gardien de prison",
-      "mots_cles": ["surveillance", "détenu", "sécurité", "centre pénitentiaire"]
-    }
-  ]
-}
-{
-  "secteur": "Éducation / Formation",
-  "metiers": [
-    {
-      "nom": "Professeur des écoles",
-      "mots_cles": ["classe", "élèves", "enseignement", "pédagogie", "primaire"]
-    },
-    {
-      "nom": "Formateur professionnel",
-      "mots_cles": ["formation", "adultes", "compétences", "cours", "atelier"]
-    },
-    {
-      "nom": "Assistant d’éducation",
-      "mots_cles": ["vie scolaire", "collège", "surveillance", "élèves"]
-    },
-    {
-      "nom": "Conseiller d’orientation",
-      "mots_cles": ["parcours", "études", "orientation", "conseil", "étudiant"]
-    }
-  ]
-}
-{
-  "secteur": "Environnement / Développement durable",
-  "metiers": [
-    {
-      "nom": "Technicien environnement",
-      "mots_cles": ["écologie", "biodiversité", "pollution", "mesures", "milieu naturel"]
-    },
-    {
-      "nom": "Agent de collecte des déchets",
-      "mots_cles": ["ordures", "poubelles", "ramassage", "camion", "tri"]
-    },
-    {
-      "nom": "Conseiller en développement durable",
-      "mots_cles": ["énergie", "bilan carbone", "audit", "recommandation", "transition"]
-    },
-    {
-      "nom": "Ingénieur en énergies renouvelables",
-      "mots_cles": ["solaire", "éolien", "photovoltaïque", "durable", "batteries"]
-    }
-  ]
-}
-{
-  "secteur": "Commerce / Vente",
-  "metiers": [
-    {
-      "nom": "Vendeur",
-      "mots_cles": ["vente", "client", "magasin", "rayon", "produit"]
-    },
-    {
-      "nom": "Caissier",
-      "mots_cles": ["caisse", "paiement", "client", "ticket", "encaissement"]
-    },
-    {
-      "nom": "Chef de rayon",
-      "mots_cles": ["gestion", "rayon", "produits", "stocks", "promotion"]
-    },
-    {
-      "nom": "Télévendeur",
-      "mots_cles": ["téléphone", "prospection", "appel", "client", "produit"]
-    }
-  ]
-}
-{
-  "secteur": "Défense / Sécurité",
-  "metiers": [
-    {
-      "nom": "Policier",
-      "mots_cles": ["sécurité", "loi", "intervention", "poste", "patrouille"]
-    },
-    {
-      "nom": "Gendarme",
-      "mots_cles": ["ordre public", "militaire", "contrôle", "routes"]
-    },
-    {
-      "nom": "Agent de sécurité",
-      "mots_cles": ["surveillance", "protection", "rondes", "caméra", "alarme"]
-    },
-    {
-      "nom": "Gardien de prison",
-      "mots_cles": ["surveillance", "détenu", "sécurité", "centre pénitentiaire"]
-    }
-  ]
-}
-{
-  "secteur": "Éducation / Formation",
-  "metiers": [
-    {
-      "nom": "Professeur des écoles",
-      "mots_cles": ["classe", "élèves", "enseignement", "pédagogie", "primaire"]
-    },
-    {
-      "nom": "Formateur professionnel",
-      "mots_cles": ["formation", "adultes", "compétences", "cours", "atelier"]
-    },
-    {
-      "nom": "Assistant d’éducation",
-      "mots_cles": ["vie scolaire", "collège", "surveillance", "élèves"]
-    },
-    {
-      "nom": "Conseiller d’orientation",
-      "mots_cles": ["parcours", "études", "orientation", "conseil", "étudiant"]
-    }
-  ]
-}
-{
-  "secteur": "Environnement / Développement durable",
-  "metiers": [
-    {
-      "nom": "Technicien environnement",
-      "mots_cles": ["écologie", "biodiversité", "pollution", "mesures", "milieu naturel"]
-    },
-    {
-      "nom": "Agent de collecte des déchets",
-      "mots_cles": ["ordures", "poubelles", "ramassage", "camion", "tri"]
-    },
-    {
-      "nom": "Conseiller en développement durable",
-      "mots_cles": ["énergie", "bilan carbone", "audit", "recommandation", "transition"]
-    },
-    {
-      "nom": "Ingénieur en énergies renouvelables",
-      "mots_cles": ["solaire", "éolien", "photovoltaïque", "durable", "batteries"]
-    }
-  ]
-}
-{
-  "secteur": "Commerce / Vente",
-  "metiers": [
-    {
-      "nom": "Vendeur",
-      "mots_cles": ["vente", "client", "magasin", "rayon", "produit"]
-    },
-    {
-      "nom": "Caissier",
-      "mots_cles": ["caisse", "paiement", "client", "ticket", "encaissement"]
-    },
-    {
-      "nom": "Chef de rayon",
-      "mots_cles": ["gestion", "rayon", "produits", "stocks", "promotion"]
-    },
-    {
-      "nom": "Télévendeur",
-      "mots_cles": ["téléphone", "prospection", "appel", "client", "produit"]
-    }
-  ]
-}
-{
-  "secteur": "Défense / Sécurité",
-  "metiers": [
-    {
-      "nom": "Policier",
-      "mots_cles": ["sécurité", "loi", "intervention", "poste", "patrouille"]
-    },
-    {
-      "nom": "Gendarme",
-      "mots_cles": ["ordre public", "militaire", "contrôle", "routes"]
-    },
-    {
-      "nom": "Agent de sécurité",
-      "mots_cles": ["surveillance", "protection", "rondes", "caméra", "alarme"]
-    },
-    {
-      "nom": "Gardien de prison",
-      "mots_cles": ["surveillance", "détenu", "sécurité", "centre pénitentiaire"]
-    }
-  ]
-}
-{
-  "secteur": "Éducation / Formation",
-  "metiers": [
-    {
-      "nom": "Professeur des écoles",
-      "mots_cles": ["classe", "élèves", "enseignement", "pédagogie", "primaire"]
-    },
-    {
-      "nom": "Formateur professionnel",
-      "mots_cles": ["formation", "adultes", "compétences", "cours", "atelier"]
-    },
-    {
-      "nom": "Assistant d’éducation",
-      "mots_cles": ["vie scolaire", "collège", "surveillance", "élèves"]
-    },
-    {
-      "nom": "Conseiller d’orientation",
-      "mots_cles": ["parcours", "études", "orientation", "conseil", "étudiant"]
-    }
-  ]
-}
-{
-  "secteur": "Environnement / Développement durable",
-  "metiers": [
-    {
-      "nom": "Technicien environnement",
-      "mots_cles": ["écologie", "biodiversité", "pollution", "mesures", "milieu naturel"]
-    },
-    {
-      "nom": "Agent de collecte des déchets",
-      "mots_cles": ["ordures", "poubelles", "ramassage", "camion", "tri"]
-    },
-    {
-      "nom": "Conseiller en développement durable",
-      "mots_cles": ["énergie", "bilan carbone", "audit", "recommandation", "transition"]
-    },
-    {
-      "nom": "Ingénieur en énergies renouvelables",
-      "mots_cles": ["solaire", "éolien", "photovoltaïque", "durable", "batteries"]
-    }
-  ]
-}
-{
-  "secteur": "Finance / Banque / Assurance",
-  "metiers": [
-    {
-      "nom": "Conseiller bancaire",
-      "mots_cles": ["compte", "client", "épargne", "prêt", "agence"]
-    },
-    {
-      "nom": "Analyste financier",
-      "mots_cles": ["marché", "investissement", "données", "finance", "portefeuille"]
-    },
-    {
-      "nom": "Chargé de clientèle assurance",
-      "mots_cles": ["assurance", "contrat", "sinistre", "client", "indemnisation"]
-    },
-    {
-      "nom": "Comptable",
-      "mots_cles": ["bilan", "factures", "comptes", "TVA", "logiciel comptable"]
-    }
-  ]
-}
-{
-  "secteur": "Immobilier / Urbanisme",
-  "metiers": [
-    {
-      "nom": "Agent immobilier",
-      "mots_cles": ["visite", "appartement", "maison", "vente", "location"]
-    },
-    {
-      "nom": "Syndic de copropriété",
-      "mots_cles": ["copropriété", "entretien", "charges", "immeuble"]
-    },
-    {
-      "nom": "Urbaniste",
-      "mots_cles": ["aménagement", "ville", "projet urbain", "PLU"]
-    },
-    {
-      "nom": "Diagnostiqueur immobilier",
-      "mots_cles": ["amiante", "DPE", "audit", "norme", "bâtiment"]
-    }
-  ]
-}
-{
-  "secteur": "Industrie / Production",
-  "metiers": [
-    {
-      "nom": "Opérateur de production",
-      "mots_cles": ["machine", "assemblage", "ligne", "fabrication", "pièce"]
-    },
-    {
-      "nom": "Technicien de maintenance industrielle",
-      "mots_cles": ["maintenance", "panne", "usine", "équipement", "réparation"]
-    },
-    {
-      "nom": "Soudeur",
-      "mots_cles": ["soudure", "acier", "tuyaux", "métal", "chalumeau"]
-    },
-    {
-      "nom": "Responsable qualité",
-      "mots_cles": ["norme", "qualité", "contrôle", "procédure", "audit"]
-    }
-  ]
-}
-{
-  "secteur": "Informatique / Numérique",
-  "metiers": [
-    {
-      "nom": "Développeur web",
-      "mots_cles": ["code", "site", "HTML", "JavaScript", "framework"]
-    },
-    {
-      "nom": "Technicien informatique",
-      "mots_cles": ["réseau", "ordinateur", "bug", "installation", "support"]
-    },
-    {
-      "nom": "Data analyst",
-      "mots_cles": ["données", "tableau", "analyse", "statistiques", "base de données"]
-    },
-    {
-      "nom": "Chef de projet IT",
-      "mots_cles": ["planning", "livrables", "agile", "technique", "pilotage"]
-    }
-  ]
-}
-{
-  "secteur": "Finance / Banque / Assurance",
-  "metiers": [
-    {
-      "nom": "Conseiller bancaire",
-      "mots_cles": ["compte", "client", "épargne", "prêt", "agence"]
-    },
-    {
-      "nom": "Analyste financier",
-      "mots_cles": ["marché", "investissement", "données", "finance", "portefeuille"]
-    },
-    {
-      "nom": "Chargé de clientèle assurance",
-      "mots_cles": ["assurance", "contrat", "sinistre", "client", "indemnisation"]
-    },
-    {
-      "nom": "Comptable",
-      "mots_cles": ["bilan", "factures", "comptes", "TVA", "logiciel comptable"]
-    }
-  ]
-}
-{
-  "secteur": "Immobilier / Urbanisme",
-  "metiers": [
-    {
-      "nom": "Agent immobilier",
-      "mots_cles": ["visite", "appartement", "maison", "vente", "location"]
-    },
-    {
-      "nom": "Syndic de copropriété",
-      "mots_cles": ["copropriété", "entretien", "charges", "immeuble"]
-    },
-    {
-      "nom": "Urbaniste",
-      "mots_cles": ["aménagement", "ville", "projet urbain", "PLU"]
-    },
-    {
-      "nom": "Diagnostiqueur immobilier",
-      "mots_cles": ["amiante", "DPE", "audit", "norme", "bâtiment"]
-    }
-  ]
-}
-{
-  "secteur": "Industrie / Production",
-  "metiers": [
-    {
-      "nom": "Opérateur de production",
-      "mots_cles": ["machine", "assemblage", "ligne", "fabrication", "pièce"]
-    },
-    {
-      "nom": "Technicien de maintenance industrielle",
-      "mots_cles": ["maintenance", "panne", "usine", "équipement", "réparation"]
-    },
-    {
-      "nom": "Soudeur",
-      "mots_cles": ["soudure", "acier", "tuyaux", "métal", "chalumeau"]
-    },
-    {
-      "nom": "Responsable qualité",
-      "mots_cles": ["norme", "qualité", "contrôle", "procédure", "audit"]
-    }
-  ]
-}
-{
-  "secteur": "Informatique / Numérique",
-  "metiers": [
-    {
-      "nom": "Développeur web",
-      "mots_cles": ["code", "site", "HTML", "JavaScript", "framework"]
-    },
-    {
-      "nom": "Technicien informatique",
-      "mots_cles": ["réseau", "ordinateur", "bug", "installation", "support"]
-    },
-    {
-      "nom": "Data analyst",
-      "mots_cles": ["données", "tableau", "analyse", "statistiques", "base de données"]
-    },
-    {
-      "nom": "Chef de projet IT",
-      "mots_cles": ["planning", "livrables", "agile", "technique", "pilotage"]
-    }
-  ]
-}
-{
-  "secteur": "Finance / Banque / Assurance",
-  "metiers": [
-    {
-      "nom": "Conseiller bancaire",
-      "mots_cles": ["compte", "client", "épargne", "prêt", "agence"]
-    },
-    {
-      "nom": "Analyste financier",
-      "mots_cles": ["marché", "investissement", "données", "finance", "portefeuille"]
-    },
-    {
-      "nom": "Chargé de clientèle assurance",
-      "mots_cles": ["assurance", "contrat", "sinistre", "client", "indemnisation"]
-    },
-    {
-      "nom": "Comptable",
-      "mots_cles": ["bilan", "factures", "comptes", "TVA", "logiciel comptable"]
-    }
-  ]
-}
-{
-  "secteur": "Immobilier / Urbanisme",
-  "metiers": [
-    {
-      "nom": "Agent immobilier",
-      "mots_cles": ["visite", "appartement", "maison", "vente", "location"]
-    },
-    {
-      "nom": "Syndic de copropriété",
-      "mots_cles": ["copropriété", "entretien", "charges", "immeuble"]
-    },
-    {
-      "nom": "Urbaniste",
-      "mots_cles": ["aménagement", "ville", "projet urbain", "PLU"]
-    },
-    {
-      "nom": "Diagnostiqueur immobilier",
-      "mots_cles": ["amiante", "DPE", "audit", "norme", "bâtiment"]
-    }
-  ]
-}
-{
-  "secteur": "Industrie / Production",
-  "metiers": [
-    {
-      "nom": "Opérateur de production",
-      "mots_cles": ["machine", "assemblage", "ligne", "fabrication", "pièce"]
-    },
-    {
-      "nom": "Technicien de maintenance industrielle",
-      "mots_cles": ["maintenance", "panne", "usine", "équipement", "réparation"]
-    },
-    {
-      "nom": "Soudeur",
-      "mots_cles": ["soudure", "acier", "tuyaux", "métal", "chalumeau"]
-    },
-    {
-      "nom": "Responsable qualité",
-      "mots_cles": ["norme", "qualité", "contrôle", "procédure", "audit"]
-    }
-  ]
-}
-{
-  "secteur": "Informatique / Numérique",
-  "metiers": [
-    {
-      "nom": "Développeur web",
-      "mots_cles": ["code", "site", "HTML", "JavaScript", "framework"]
-    },
-    {
-      "nom": "Technicien informatique",
-      "mots_cles": ["réseau", "ordinateur", "bug", "installation", "support"]
-    },
-    {
-      "nom": "Data analyst",
-      "mots_cles": ["données", "tableau", "analyse", "statistiques", "base de données"]
-    },
-    {
-      "nom": "Chef de projet IT",
-      "mots_cles": ["planning", "livrables", "agile", "technique", "pilotage"]
-    }
-  ]
-}
-{
-  "secteur": "Finance / Banque / Assurance",
-  "metiers": [
-    {
-      "nom": "Conseiller bancaire",
-      "mots_cles": ["compte", "client", "épargne", "prêt", "agence"]
-    },
-    {
-      "nom": "Analyste financier",
-      "mots_cles": ["marché", "investissement", "données", "finance", "portefeuille"]
-    },
-    {
-      "nom": "Chargé de clientèle assurance",
-      "mots_cles": ["assurance", "contrat", "sinistre", "client", "indemnisation"]
-    },
-    {
-      "nom": "Comptable",
-      "mots_cles": ["bilan", "factures", "comptes", "TVA", "logiciel comptable"]
-    }
-  ]
-}
-{
-  "secteur": "Immobilier / Urbanisme",
-  "metiers": [
-    {
-      "nom": "Agent immobilier",
-      "mots_cles": ["visite", "appartement", "maison", "vente", "location"]
-    },
-    {
-      "nom": "Syndic de copropriété",
-      "mots_cles": ["copropriété", "entretien", "charges", "immeuble"]
-    },
-    {
-      "nom": "Urbaniste",
-      "mots_cles": ["aménagement", "ville", "projet urbain", "PLU"]
-    },
-    {
-      "nom": "Diagnostiqueur immobilier",
-      "mots_cles": ["amiante", "DPE", "audit", "norme", "bâtiment"]
-    }
-  ]
-}
-{
-  "secteur": "Industrie / Production",
-  "metiers": [
-    {
-      "nom": "Opérateur de production",
-      "mots_cles": ["machine", "assemblage", "ligne", "fabrication", "pièce"]
-    },
-    {
-      "nom": "Technicien de maintenance industrielle",
-      "mots_cles": ["maintenance", "panne", "usine", "équipement", "réparation"]
-    },
-    {
-      "nom": "Soudeur",
-      "mots_cles": ["soudure", "acier", "tuyaux", "métal", "chalumeau"]
-    },
-    {
-      "nom": "Responsable qualité",
-      "mots_cles": ["norme", "qualité", "contrôle", "procédure", "audit"]
-    }
-  ]
-}
-{
-  "secteur": "Informatique / Numérique",
-  "metiers": [
-    {
-      "nom": "Développeur web",
-      "mots_cles": ["code", "site", "HTML", "JavaScript", "framework"]
-    },
-    {
-      "nom": "Technicien informatique",
-      "mots_cles": ["réseau", "ordinateur", "bug", "installation", "support"]
-    },
-    {
-      "nom": "Data analyst",
-      "mots_cles": ["données", "tableau", "analyse", "statistiques", "base de données"]
-    },
-    {
-      "nom": "Chef de projet IT",
-      "mots_cles": ["planning", "livrables", "agile", "technique", "pilotage"]
-    }
-  ]
-    }
-{
-  "secteur": "Juridique / Droit",
-  "metiers": [
-    {
-      "nom": "Avocat",
-      "mots_cles": ["tribunal", "procès", "client", "défense", "juridique"]
-    },
-    {
-      "nom": "Notaire",
-      "mots_cles": ["acte", "succession", "contrat", "immobilier", "authentification"]
-    },
-    {
-      "nom": "Greffier",
-      "mots_cles": ["tribunal", "audience", "enregistrement", "procédure"]
-    },
-    {
-      "nom": "Juriste d'entreprise",
-      "mots_cles": ["droit", "contrat", "litige", "compliance", "conseil"]
-    }
-  ]
-}
-{
-  "secteur": "Logistique / Transport / Supply Chain",
-  "metiers": [
-    {
-      "nom": "Chauffeur poids lourd",
-      "mots_cles": ["camion", "marchandise", "livraison", "permis C", "trajet"]
-    },
-    {
-      "nom": "Cariste",
-      "mots_cles": ["chariot", "élévateur", "entrepôt", "palette", "logistique"]
-    },
-    {
-      "nom": "Agent de quai",
-      "mots_cles": ["chargement", "déchargement", "logistique", "manutention"]
-    },
-    {
-      "nom": "Responsable supply chain",
-      "mots_cles": ["chaîne logistique", "flux", "planification", "stock"]
-    }
-  ]
-}
-{
-  "secteur": "Luxe / Artisanat d'art",
-  "metiers": [
-    {
-      "nom": "Horloger",
-      "mots_cles": ["montre", "précision", "mécanisme", "bijou"]
-    },
-    {
-      "nom": "Sellier-maroquinier",
-      "mots_cles": ["cuir", "couture", "sac", "artisan", "luxe"]
-    },
-    {
-      "nom": "Joallier",
-      "mots_cles": ["bijou", "or", "pierre précieuse", "sertissage"]
-    },
-    {
-      "nom": "Tailleur haute couture",
-      "mots_cles": ["vêtement", "sur-mesure", "tissu", "modélisme"]
-    }
-  ]
-}
-{
-  "secteur": "Santé / Social / Médico-social",
-  "metiers": [
-    {
-      "nom": "Médecin",
-      "mots_cles": ["patient", "diagnostic", "consultation", "traitement"]
-    },
-    {
-      "nom": "Infirmier",
-      "mots_cles": ["soins", "piqûre", "patient", "hôpital", "surveillance"]
-    },
-    {
-      "nom": "Aide-soignant",
-      "mots_cles": ["hygiène", "accompagnement", "dépendance", "soins"]
-    },
-    {
-      "nom": "Travailleur social",
-      "mots_cles": ["accompagnement", "insertion", "public en difficulté", "écoute"]
-    }
-  ]
-}
-{
-  "secteur": "Juridique / Droit",
-  "metiers": [
-    {
-      "nom": "Avocat",
-      "mots_cles": ["tribunal", "procès", "client", "défense", "juridique"]
-    },
-    {
-      "nom": "Notaire",
-      "mots_cles": ["acte", "succession", "contrat", "immobilier", "authentification"]
-    },
-    {
-      "nom": "Greffier",
-      "mots_cles": ["tribunal", "audience", "enregistrement", "procédure"]
-    },
-    {
-      "nom": "Juriste d'entreprise",
-      "mots_cles": ["droit", "contrat", "litige", "compliance", "conseil"]
-    }
-  ]
-}
-{
-  "secteur": "Logistique / Transport / Supply Chain",
-  "metiers": [
-    {
-      "nom": "Chauffeur poids lourd",
-      "mots_cles": ["camion", "marchandise", "livraison", "permis C", "trajet"]
-    },
-    {
-      "nom": "Cariste",
-      "mots_cles": ["chariot", "élévateur", "entrepôt", "palette", "logistique"]
-    },
-    {
-      "nom": "Agent de quai",
-      "mots_cles": ["chargement", "déchargement", "logistique", "manutention"]
-    },
-    {
-      "nom": "Responsable supply chain",
-      "mots_cles": ["chaîne logistique", "flux", "planification", "stock"]
-    }
-  ]
-}
-{
-  "secteur": "Luxe / Artisanat d'art",
-  "metiers": [
-    {
-      "nom": "Horloger",
-      "mots_cles": ["montre", "précision", "mécanisme", "bijou"]
-    },
-    {
-      "nom": "Sellier-maroquinier",
-      "mots_cles": ["cuir", "couture", "sac", "artisan", "luxe"]
-    },
-    {
-      "nom": "Joallier",
-      "mots_cles": ["bijou", "or", "pierre précieuse", "sertissage"]
-    },
-    {
-      "nom": "Tailleur haute couture",
-      "mots_cles": ["vêtement", "sur-mesure", "tissu", "modélisme"]
-    }
-  ]
-}
-{
-  "secteur": "Santé / Social / Médico-social",
-  "metiers": [
-    {
-      "nom": "Médecin",
-      "mots_cles": ["patient", "diagnostic", "consultation", "traitement"]
-    },
-    {
-      "nom": "Infirmier",
-      "mots_cles": ["soins", "piqûre", "patient", "hôpital", "surveillance"]
-    },
-    {
-      "nom": "Aide-soignant",
-      "mots_cles": ["hygiène", "accompagnement", "dépendance", "soins"]
-    },
-    {
-      "nom": "Travailleur social",
-      "mots_cles": ["accompagnement", "insertion", "public en difficulté", "écoute"]
-    }
-  ]
-}
-{
-  "secteur": "Tourisme / Hôtellerie / Restauration",
-  "metiers": [
-    {
-      "nom": "Serveur",
-      "mots_cles": ["service", "client", "restaurant", "prise de commande", "salle"]
-    },
-    {
-      "nom": "Réceptionniste",
-      "mots_cles": ["accueil", "hôtel", "réservation", "client", "standard"]
-    },
-    {
-      "nom": "Cuisinier",
-      "mots_cles": ["cuisine", "préparation", "menu", "produits frais"]
-    },
-    {
-      "nom": "Agent de voyage",
-      "mots_cles": ["séjour", "réservation", "voyage", "client", "billetterie"]
-    }
-  ]
-}
-{
-  "secteur": "Vente / Commerce / Grande distribution",
-  "metiers": [
-    {
-      "nom": "Caissier",
-      "mots_cles": ["caisse", "encaissement", "client", "ticket", "magasin"]
-    },
-    {
-      "nom": "Vendeur en boutique",
-      "mots_cles": ["conseil", "vente", "produit", "client", "stock"]
-    },
-    {
-      "nom": "Chef de rayon",
-      "mots_cles": ["merchandising", "gestion stock", "supermarché", "rayon"]
-    },
-    {
-      "nom": "Manager de magasin",
-      "mots_cles": ["équipe", "chiffre", "gestion", "stock", "animation"]
-    }
-  ]
-}
-{
-  "secteur": "Énergie / Environnement / Écologie",
-  "metiers": [
-    {
-      "nom": "Technicien de maintenance photovoltaïque",
-      "mots_cles": ["panneau solaire", "énergie renouvelable", "maintenance", "site"]
-    },
-    {
-      "nom": "Chargé d'études environnement",
-      "mots_cles": ["biodiversité", "diagnostic", "impact", "règlementation"]
-    },
-    {
-      "nom": "Agent de collecte des déchets",
-      "mots_cles": ["camion", "poubelle", "ordures", "ramassage", "tri"]
-    },
-    {
-      "nom": "Responsable RSE",
-      "mots_cles": ["développement durable", "transition écologique", "bilan carbone"]
-    }
-  ]
-}
-{
-  "secteur": "Autres / Métiers transversaux",
-  "metiers": [
-    {
-      "nom": "Formateur",
-      "mots_cles": ["enseignement", "cours", "animation", "pédagogie"]
-    },
-    {
-      "nom": "Consultant indépendant",
-      "mots_cles": ["audit", "conseil", "client", "stratégie", "freelance"]
-    },
-    {
-      "nom": "Entrepreneur",
-      "mots_cles": ["création", "business", "entreprise", "auto-entreprise"]
-    },
-    {
-      "nom": "Téléopérateur",
-      "mots_cles": ["appels", "plateforme", "relation client", "hotline"]
-    }
-  ]
-}
+[
+  {
+    "secteur": "Sécurité et Défense",
+    "metiers": [
+      "Agent de sécurité",
+      "Gendarme",
+      "Policier",
+      "Militaire",
+      "Surveillant pénitentiaire"
+    ]
+  },
+  {
+    "secteur": "Services à la personne",
+    "metiers": [
+      "Aide à domicile",
+      "Auxiliaire de vie",
+      "Assistant maternel",
+      "Employé familial",
+      "Gardien d'immeuble"
+    ]
+  },
+  {
+    "secteur": "Sport et Loisirs",
+    "metiers": [
+      "Éducateur sportif",
+      "Moniteur de ski",
+      "Coach sportif",
+      "Animateur de centre de loisirs"
+    ]
+  },
+  {
+    "secteur": "Télécommunications",
+    "metiers": [
+      "Technicien télécoms",
+      "Ingénieur réseau",
+      "Installateur fibre optique"
+    ]
+  },
+  {
+    "secteur": "Tourisme, Hôtellerie, Restauration",
+    "metiers": [
+      "Serveur",
+      "Réceptionniste",
+      "Cuisinier",
+      "Femme de chambre",
+      "Gérant de camping"
+    ]
+  },
+  {
+    "secteur": "Transport et Logistique",
+    "metiers": [
+      "Chauffeur routier",
+      "Conducteur de bus",
+      "Agent d’exploitation",
+      "Cariste",
+      "Magasinier"
+    ]
+  },
+  {
+    "secteur": "Urbanisme et Aménagement",
+    "metiers": [
+      "Urbaniste",
+      "Paysagiste",
+      "Ingénieur territorial",
+      "Chargé de projet aménagement"
+    ]
+  },
+  {
+    "secteur": "Vente et Distribution",
+    "metiers": [
+      "Vendeur",
+      "Chef de rayon",
+      "Télévendeur",
+      "Manager de surface",
+      "Commerçant"
+    ]
+  },
+  {
+    "secteur": "Web et Numérique",
+    "metiers": [
+      "Développeur web",
+      "UX/UI Designer",
+      "Traffic manager",
+      "Consultant SEO"
+    ]
+  },
+  {
+    "secteur": "Élevage et Zootechnie",
+    "metiers": [
+      "Éleveur",
+      "Soigneur animalier",
+      "Technicien zootechnicien",
+      "Vétérinaire"
+    ]
+  }
+]
